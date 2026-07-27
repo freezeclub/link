@@ -307,6 +307,35 @@
   @media (max-width:360px){
     .promo h2{font-size:23px}
   }
+
+  /* ===== Desktop / Tablet: zweispaltig, Brand-Spalte links sticky ===== */
+  @media (min-width:960px){
+    .wrap{max-width:1140px;
+      padding-top:calc(60px + env(safe-area-inset-top));
+      padding-bottom:76px;}
+    .shell{display:grid;grid-template-columns:minmax(0,390px) minmax(0,1fr);
+      gap:clamp(44px,5vw,80px);align-items:start;}
+    .colA{position:sticky;top:44px;}
+    .colB{min-width:0;}
+
+    /* Brand-Spalte links ausgerichtet */
+    header{text-align:left;margin-bottom:0;}
+    .logo{width:250px;max-width:80%;}
+    .tag{margin-top:18px;}
+    .colA .eyebrow{margin:38px 2px 20px;}
+
+    /* Content-Spalte: erste Überschrift bündig mit Header oben */
+    .colB > .eyebrow:first-child{margin-top:4px;}
+    .colB .eyebrow{margin-top:50px;}
+
+    /* Foto-Slider zeigt mehr auf Desktop */
+    .slide{flex:0 0 300px;}
+
+    /* mobile Sticky-Bar aus (CTA steht dauerhaft links) */
+    .sticky{display:none;}
+
+    footer{margin-top:60px;padding-top:30px;border-top:1px solid var(--line);}
+  }
 </style>
 </head>
 <body>
@@ -315,6 +344,8 @@
 <div class="grain"></div>
 
 <main class="wrap">
+ <div class="shell">
+  <div class="colA">
 
   <header class="rise d1">
     <h1 style="margin:0"><img class="logo" src="assets/logo-white.png" alt="freezeclub" /></h1>
@@ -348,6 +379,9 @@
     <span class="price">39 €</span>
     <span class="arw"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
   </a>
+
+  </div><!-- /colA -->
+  <div class="colB">
 
   <!-- ===== Einblicke / Slider ===== -->
   <div class="eyebrow rise d3">
@@ -517,6 +551,8 @@
     <p class="disc">freezeclub · Wilhelmstraße 45 · 72336 Balingen</p>
   </footer>
 
+  </div><!-- /colB -->
+ </div><!-- /shell -->
 </main>
 
 <!-- sticky Probemonat-Bar -->

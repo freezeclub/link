@@ -7,6 +7,11 @@ wie die freeze & talk Podcast-Seite. Hauptfokus: **Probemonat** bewerben.
 - `index.html` – die Seite (self-contained, statisch)
 - `assets/` – Logo (weiter unten evtl. `og-image` ergänzen)
 
+## Responsive
+Mobile-first, einspaltig. Ab **960 px** zweispaltiges Layout (`.shell` → `.colA`
+sticky Brand/Probemonat links, `.colB` Content rechts); die mobile Sticky-Bar wird
+dann ausgeblendet. Buttons in Mint-Grün (wie Yoga-Event).
+
 ## Aufbau
 - Header: großes Logo (kein ausgeschriebener Titel)
 - Hero: Probemonat-Aktion mit Perks + WhatsApp-CTA
