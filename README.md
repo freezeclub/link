@@ -41,5 +41,5 @@ Shop als „Ausverkauft" markiert – ggf. Verfügbarkeit prüfen.
 Reines HTML/CSS/JS. Live via GitHub Pages im Repo `freezeclub/link` →
 **https://freezeclub.github.io/link/** (der Podcast liegt auf der Root, Yoga unter
 `/yoga-event/`). Für saubere Link-Vorschauen (WhatsApp/Instagram) noch ein
-`assets/og-image.png` (1200×630) hinterlegen – die `og:*`-Tags zeigen bereits auf
-`…/link/assets/og-image.png`.
+`assets/og-image.jpg` (1200×630) hinterlegen – die `og:*`-Tags zeigen bereits auf
+`…/link/assets/og-image.jpg`.
