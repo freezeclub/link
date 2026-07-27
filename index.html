@@ -38,6 +38,9 @@
     --ice-faint:rgba(234,246,255,.38);
     --line:rgba(212,237,252,.13);
     --accent:#D4EDFC;
+    --mint:#CDF0BF;           /* Pastellgrün / Buttons (wie Yoga-Event) */
+    --mint-2:#B4E6A0;
+    --mint-ink:#1c3d18;
     --wa:#25D366;
     --gap:16px;
     --section:66px;
@@ -176,7 +179,8 @@
   .promo .perks .ck svg{width:12px;height:12px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
   .promo .cta{position:relative;z-index:1;display:flex;align-items:center;justify-content:center;gap:9px;
     margin-top:22px;padding:16px;border-radius:14px;text-decoration:none;font-weight:700;font-size:15px;
-    background:var(--accent);color:var(--navy);box-shadow:0 16px 40px -18px rgba(212,237,252,.8);
+    background:linear-gradient(94deg,var(--mint),var(--mint-2));color:var(--mint-ink);
+    box-shadow:0 16px 40px -18px rgba(180,230,160,.85);
     transition:transform .16s ease,filter .16s ease}
   .promo .cta svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
   .promo .cta:hover{filter:brightness(1.04);transform:translateY(-2px)}
@@ -192,8 +196,8 @@
   .altoffer .tagline{flex:1;min-width:0}
   .altoffer .tagline b{display:block;font-size:14px;font-weight:600;letter-spacing:-.01em}
   .altoffer .tagline span{display:block;font-size:12px;color:var(--ice-dim);margin-top:2px}
-  .altoffer .price{flex:none;font-size:15px;font-weight:700;color:var(--navy);
-    background:var(--accent);border-radius:10px;padding:7px 11px;font-variant-numeric:tabular-nums}
+  .altoffer .price{flex:none;font-size:15px;font-weight:700;color:var(--mint-ink);
+    background:linear-gradient(94deg,var(--mint),var(--mint-2));border-radius:10px;padding:7px 11px;font-variant-numeric:tabular-nums}
   .altoffer .arw{flex:none;color:var(--ice-faint);transition:transform .18s ease,color .18s ease}
   .altoffer:hover .arw{transform:translateX(3px);color:var(--accent)}
   .altoffer .arw svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
@@ -219,14 +223,14 @@
   .link .arw{flex:none;color:var(--ice-faint);position:relative;z-index:1;transition:transform .18s ease,color .18s ease}
   .link:hover .arw{transform:translateX(4px);color:var(--accent)}
   .link .arw svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-  .link.primary{background:var(--accent);border:1px solid var(--accent);color:var(--navy);
-    box-shadow:0 18px 44px -20px rgba(212,237,252,.75)}
-  .link.primary .ic{background:var(--navy);color:var(--accent)}
-  .link.primary .txt span{color:rgba(8,33,72,.62)}
-  .link.primary .arw{color:rgba(8,33,72,.5)}
+  .link.primary{background:linear-gradient(94deg,var(--mint),var(--mint-2));border:1px solid var(--mint-2);color:var(--mint-ink);
+    box-shadow:0 18px 44px -20px rgba(180,230,160,.8)}
+  .link.primary .ic{background:var(--mint-ink);color:var(--mint)}
+  .link.primary .txt span{color:rgba(28,61,24,.66)}
+  .link.primary .arw{color:rgba(28,61,24,.5)}
   .link.primary::before{background:linear-gradient(100deg,transparent,rgba(255,255,255,.5),transparent)}
-  .link.primary:hover{background:#f1f9ff;border-color:#f1f9ff}
-  .link.primary:hover .arw{color:var(--navy)}
+  .link.primary:hover{filter:brightness(1.03)}
+  .link.primary:hover .arw{color:var(--mint-ink)}
 
   /* opening hours */
   .hours{border-radius:var(--radius);padding:22px;margin-top:var(--gap)}
@@ -293,8 +297,9 @@
     transform:translateY(140%);transition:transform .38s cubic-bezier(.2,.7,.2,1);pointer-events:none}
   .sticky.show{transform:translateY(0)}
   .sticky a{pointer-events:auto;max-width:468px;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:10px;
-    padding:16px;border-radius:16px;text-decoration:none;font-weight:700;font-size:15px;color:var(--navy);
-    background:var(--accent);box-shadow:0 16px 40px -16px rgba(212,237,252,.7), 0 8px 24px -10px rgba(0,0,0,.55);
+    padding:16px;border-radius:16px;text-decoration:none;font-weight:700;font-size:15px;color:var(--mint-ink);
+    background:linear-gradient(94deg,var(--mint),var(--mint-2));
+    box-shadow:0 16px 40px -16px rgba(180,230,160,.75), 0 8px 24px -10px rgba(0,0,0,.55);
     transition:filter .16s ease}
   .sticky a:active{filter:brightness(.97)}
   .sticky a svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
@@ -362,15 +367,6 @@
       </div>
       <div class="slide" style="--img:url('assets/gallery-theke.jpg');--fb:linear-gradient(158deg,#183056,#0b1a34)">
         <div class="cap"><span class="n">4</span><b>Dein Empfang</b><span>Willkommen in der Wilhelmstraße</span></div>
-      </div>
-      <div class="slide team" style="--fb:linear-gradient(158deg,#1c3a5a,#0b1f3a)">
-        <span class="teamtag"><span class="n">5</span>Dein Team</span>
-        <span class="ph" style="background-image:url('assets/team-jana.jpg')"><span class="nm">Jana</span></span>
-        <span class="ph" style="background-image:url('assets/team-marc.jpg')"><span class="nm">Marc</span></span>
-        <span class="steven">
-          <span class="mono">S</span>
-          <span class="sti"><b>Steven</b><span>Meist vor Ort für dich da</span></span>
-        </span>
       </div>
     </div>
     <button class="snav prev" id="snavPrev" type="button" aria-label="Zurück"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button>
