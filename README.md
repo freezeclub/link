@@ -23,7 +23,7 @@ Fotos liegen in `assets/`. Slider nutzt `gallery-kaeltekammer.jpg`,
 `anwendung-lymphdrainage.jpg`, `anwendung-bodyscan.jpg`, `gallery-theke.jpg`
 sowie die Team-Porträts `team-jana.jpg` + `team-marc.jpg`. Die Anwendungs- und
 Team-Bilder stammen von der offiziellen Website (onecdn.io, via freezeclub.de).
-Das aktuelle Team = Jana & Marc (Einzelporträts von der /uber-uns Seite).
+Team = Jana & Marc (Porträts) + Steven (Hauptkraft, kein Foto → Monogramm „S").
 
 ## Hinweis zum Angebot
 Der Probemonat-Hero ist als Platzhalter/Wunsch-Aktion gesetzt – vor dem Livegang
