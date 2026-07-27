@@ -181,6 +181,11 @@
   .promo .perks .ck{width:22px;height:22px;flex:none;border-radius:50%;display:grid;place-items:center;
     background:rgba(212,237,252,.14);color:var(--accent)}
   .promo .perks .ck svg{width:12px;height:12px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+  .promo .pricerow{position:relative;z-index:1;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-top:20px}
+  .promo .pricerow .now{font-size:36px;font-weight:800;letter-spacing:-.02em;color:var(--mint-2);font-variant-numeric:tabular-nums}
+  .promo .pricerow .was{font-size:18px;color:var(--ice-faint);text-decoration:line-through;font-variant-numeric:tabular-nums}
+  .promo .pricerow .save{font-size:12px;font-weight:700;color:var(--mint-ink);letter-spacing:.01em;
+    background:linear-gradient(94deg,var(--mint),var(--mint-2));border-radius:100px;padding:5px 12px}
   .promo .cta{position:relative;z-index:1;display:flex;align-items:center;justify-content:center;gap:9px;
     margin-top:22px;padding:16px;border-radius:14px;text-decoration:none;font-weight:700;font-size:15px;
     background:linear-gradient(94deg,var(--mint),var(--mint-2));color:var(--mint-ink);
@@ -356,31 +361,35 @@
     <p class="tag">Kältekammer · Regeneration · Gesundheit · Balingen</p>
   </header>
 
-  <!-- ===== Probemonat ===== -->
+  <!-- ===== Sommer-Aktion ===== -->
   <div class="eyebrow rise d2">
     <span class="flake"><svg viewBox="0 0 24 24"><path d="M12 2v20M4 6l16 12M20 6 4 18"/></svg></span>
-    Neu hier?
+    Sommer-Aktion
   </div>
 
   <section class="promo frost rise d2">
-    <span class="badge"><span class="dot"></span> Aktion · Probemonat</span>
-    <h2>Einen Monat lang <em>ausprobieren</em>.</h2>
-    <p>Lern den freezeclub in Ruhe kennen – Kältekammer, Regeneration und alles, was dazugehört. Ohne lange Bindung.</p>
+    <span class="badge"><span class="dot"></span> Sommer-Aktion · nur kurze Zeit</span>
+    <h2>12 Anwendungen für <em>deinen Sommer</em>.</h2>
+    <p>Kryo- &amp; Vakuumtherapie im Kombi-Paket – für mehr Energie, Fettverbrennung und Regeneration.</p>
+    <div class="pricerow">
+      <span class="now">199 €</span>
+      <span class="was">468 €</span>
+      <span class="save">– 269 € sparen</span>
+    </div>
     <ul class="perks">
-      <li><span class="ck"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span> Voller Zugang zur Kältekammer</li>
-      <li><span class="ck"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span> Persönliche Einweisung inklusive</li>
-      <li><span class="ck"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span> Flexibel &amp; ohne Verpflichtung danach</li>
+      <li><span class="ck"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span> 12 intensive Anwendungen</li>
+      <li><span class="ck"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span> Kryo- &amp; Vakuumtherapie kombiniert</li>
+      <li><span class="ck"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span> Persönliche Beratung inklusive</li>
     </ul>
-    <a class="cta" href="https://wa.me/4915235801273?text=Hallo%20freezeclub!%20Ich%20interessiere%20mich%20f%C3%BCr%20den%20Probemonat%20und%20h%C3%A4tte%20ein%20paar%20Fragen." target="_blank" rel="noopener">
+    <a class="cta" href="https://shop.freezeclub.de/products/aktion-sommer-aktion" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-      Probemonat sichern
+      Sommer-Aktion sichern
     </a>
-    <p class="fineprint">Unverbindlich anfragen · Antwort meist am selben Tag</p>
+    <p class="fineprint">Nur einmal pro Person · Beratung vor der ersten Anwendung</p>
   </section>
 
-  <a class="altoffer frost rise d2" href="https://shop.freezeclub.de/products/kryotherapie-kennenlern-angebot-1-anwendung-gratis-drei-anwendungen-nur-einmal-pro-person-einlosbar" target="_blank" rel="noopener">
-    <span class="tagline"><b>Lieber erst reinschnuppern?</b><span>Kennenlern-Angebot · 3 Kältekammer-Anwendungen, 1 gratis</span></span>
-    <span class="price">39 €</span>
+  <a class="altoffer frost rise d2" href="https://wa.me/4915235801273?text=Hallo%20freezeclub!%20Ich%20interessiere%20mich%20f%C3%BCr%20den%20Probemonat%20und%20h%C3%A4tte%20ein%20paar%20Fragen." target="_blank" rel="noopener">
+    <span class="tagline"><b>Lieber erstmal reinschnuppern?</b><span>Probemonat – einen Monat unverbindlich testen</span></span>
     <span class="arw"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
   </a>
 
@@ -561,8 +570,8 @@
 
 <!-- sticky Probemonat-Bar -->
 <div class="sticky" id="sticky">
-  <a href="https://wa.me/4915235801273?text=Hallo%20freezeclub!%20Ich%20interessiere%20mich%20f%C3%BCr%20den%20Probemonat%20und%20h%C3%A4tte%20ein%20paar%20Fragen." target="_blank" rel="noopener">
-    Probemonat sichern
+  <a href="https://shop.freezeclub.de/products/aktion-sommer-aktion" target="_blank" rel="noopener">
+    Sommer-Aktion sichern · 199 €
     <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
   </a>
 </div>
