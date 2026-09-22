@@ -1,45 +1,105 @@
-# freezeclub – Link in Bio (allgemein)
+# freezeclub Balingen – Kältekammer, Regeneration & Gesundheit ❄️
 
-Statische Link-in-Bio-Seite für den **freezeclub Balingen** – im gleichen Design
-wie die freeze & talk Podcast-Seite. Hauptfokus: **Probemonat** bewerben.
+Der **freezeclub** ist das Studio für **Kryotherapie, Regeneration und ganzheitliche Gesundheit
+in Balingen**. In der Hochleistungs-Kältekammer geht es bei bis zu **−85 °C** um das, was danach
+kommt: mehr Energie, schnellere Regeneration, besserer Schlaf. Dazu **Lymphdrainage** per
+Vakuumtherapie und der **4D-Körperscan**, der Fortschritte millimetergenau messbar macht.
 
-## Inhalt
-- `index.html` – die Seite (self-contained, statisch)
-- `assets/` – Logo (weiter unten evtl. `og-image` ergänzen)
+📍 **freezeclub GmbH**, Wilhelmstraße 45, 72336 Balingen · [freezeclub.de](https://www.freezeclub.de)
 
-## Responsive
-Mobile-first, einspaltig. Ab **960 px** zweispaltiges Layout (`.shell` → `.colA`
-sticky Brand/Probemonat links, `.colB` Content rechts); die mobile Sticky-Bar wird
-dann ausgeblendet. Buttons in Mint-Grün (wie Yoga-Event).
+## 🔗 Alle Links auf einen Blick
 
-## Aufbau
-- Header: großes Logo (kein ausgeschriebener Titel)
-- Hero: Probemonat-Aktion mit Perks + WhatsApp-CTA
-- Einblicke: Foto-Slider (Kältekammer, Lymphdrainage, 3D-Bodyscan, Empfang, Team) – swipe/Pfeile
-- Unsere Anwendungen: Kryotherapie, Lymphdrainage, 3D-Körperscan (→ freezeclub.de)
-- Termin & Kontakt: Buchung, WhatsApp, Telefon, Anfahrt + Öffnungszeiten
-- Über den freezeclub
-- Du bist bereits Kunde?: Termin in der App buchen (RemediCool, app.remedi-cool.com/login) + Mehrfachkarte nachkaufen (Shop)
-- Mehr entdecken (Podcast, Shop, Website)
-- Socials + Footer
+| | |
+|---|---|
+| ⭐ **Link in Bio** | **https://freezeclub.github.io/link/** |
+| 🌐 **Website** | https://www.freezeclub.de |
+| 🛒 **Onlineshop** | https://shop.freezeclub.de |
+| 📅 **Termin buchen** | https://www.freezeclub.de/contact |
+| 💬 **WhatsApp** | https://wa.me/4915235801273 |
+| 📱 **App für Kunden (RemediCool)** | https://app.remedi-cool.com/login |
+| 🎙️ **Podcast „freeze & talk"** | https://freezeclub.github.io |
+| 📷 **Instagram** | https://www.instagram.com/freezeclub.de/ |
+| ▶️ **YouTube** | https://www.youtube.com/channel/UCOYIpV_B4ECS51xwBbnH1tQ |
+| 👍 **Facebook** | https://www.facebook.com/p/Freezeclub-100090924436332/ |
 
-## Bilder
-Fotos liegen in `assets/`. Slider nutzt `gallery-kaeltekammer.jpg`,
-`anwendung-lymphdrainage.jpg`, `anwendung-bodyscan.jpg`, `gallery-theke.jpg`
-sowie die Team-Porträts `team-jana.jpg` + `team-marc.jpg`. Die Anwendungs- und
-Team-Bilder stammen von der offiziellen Website (onecdn.io, via freezeclub.de).
-Team = Jana & Marc (Porträts) + Steven (Hauptkraft, kein Foto → Monogramm „S").
+## ❄️ Unsere Anwendungen
 
-## Hinweis zum Angebot
-Der Probemonat-Hero ist als Platzhalter/Wunsch-Aktion gesetzt – vor dem Livegang
-Konditionen prüfen. Das reale Einstiegsangebot im Shop ist das **Kennenlern-Angebot
-Kryotherapie: 3 Kältekammer-Anwendungen (1 gratis), 39 €**, nur einmal pro Person
-einlösbar (Produktlink im Angebots-Streifen unter dem Hero). War beim Anlegen im
-Shop als „Ausverkauft" markiert – ggf. Verfügbarkeit prüfen.
+- ❄️ **[Kryotherapie · Kältekammer](https://www.freezeclub.de/kryotherapie-balingen)** – Ganzkörper-Kälte
+  bei bis zu −85 °C. Ein paar Minuten für Regeneration, Energie und gute Laune.
+- 💨 **[Lymphdrainage · Vakuumtherapie](https://www.freezeclub.de/lymphdrainage-balingen)** – aktiviert
+  Durchblutung und Lymphfluss, unterstützt Entschlackung und Bindegewebe.
+- 📐 **[4D-Körperscan](https://www.freezeclub.de/4d-korperscan-balingen)** – millimetergenauer Avatar
+  deines Körpers samt Haltungsanalyse. Macht Veränderung sichtbar statt gefühlt.
 
-## Hosting
-Reines HTML/CSS/JS. Live via GitHub Pages im Repo `freezeclub/link` →
-**https://freezeclub.github.io/link/** (der Podcast liegt auf der Root, Yoga unter
-`/yoga-event/`). Für saubere Link-Vorschauen (WhatsApp/Instagram) noch ein
-`assets/og-image.jpg` (1200×630) hinterlegen – die `og:*`-Tags zeigen bereits auf
-`…/link/assets/og-image.jpg`.
+## 🎁 Kennenlern-Angebot
+
+**3 Kältekammer-Anwendungen zum Preis von einer – 39 €** statt 117 €. Inklusive persönlicher
+Einweisung, ohne Abo und ohne Bindung, einmal pro Person einlösbar.
+
+👉 **[Jetzt im Shop sichern](https://shop.freezeclub.de/products/kennenlern-angebot-kaeltekammer-3-anwendungen)**
+
+## 🕙 Öffnungszeiten & Kontakt
+
+| | |
+|---|---|
+| **Mo – Fr** | 10 – 14 Uhr · 15 – 19 Uhr |
+| **Samstag** | 10 – 14 Uhr |
+| **Sonntag** | geschlossen |
+
+📞 **+49 7433 1402350** · 💬 **WhatsApp [+49 152 35801273](https://wa.me/4915235801273)**
+📍 [Wilhelmstraße 45, 72336 Balingen](https://maps.google.com/?q=freezeclub+Wilhelmstra%C3%9Fe+45+72336+Balingen)
+
+## Über den freezeclub
+
+Der freezeclub in Balingen steht für ganzheitliche Gesundheit: Kälteanwendungen, Regeneration und
+Wohlbefinden unter einem Dach. Ein Ort, an dem du für deinen Körper und deinen Kopf etwas Gutes
+tust – begleitet von Menschen, die wirklich weiterhelfen. Der freezeclub ist außerdem Herausgeber
+des Podcasts **[freeze & talk](https://freezeclub.github.io)**, in dem es in jeder Folge mit einem
+Gast um Wohlbefinden, Ernährung, Regeneration und mentale Gesundheit geht.
+
+## Häufige Fragen (FAQ)
+
+**Was ist der freezeclub?**
+Ein Studio für Kryotherapie, Regeneration und ganzheitliche Gesundheit in Balingen – mit
+Kältekammer, Lymphdrainage und 4D-Körperscan.
+
+**Wo ist der freezeclub?**
+Wilhelmstraße 45, 72336 Balingen, Deutschland.
+
+**Wie kalt ist die Kältekammer?**
+Bis zu −85 °C. Die Anwendung dauert nur wenige Minuten, eine persönliche Einweisung gehört dazu.
+
+**Wie bekomme ich einen Termin?**
+Über [freezeclub.de/contact](https://www.freezeclub.de/contact), per WhatsApp, telefonisch unter
++49 7433 1402350 – oder als Bestandskunde direkt in der RemediCool-App.
+
+**Was kostet der Einstieg?**
+Das Kennenlern-Angebot: 3 Kältekammer-Anwendungen zum Preis von einer für 39 €.
+
+**Gibt es Mitgliedschaften?**
+Ja, im [Onlineshop](https://shop.freezeclub.de) – daneben Einzelanwendungen, Mehrfachkarten und
+Geschenkgutscheine.
+
+---
+
+### Über dieses Repository
+
+Dieses Repository enthält die **Link-in-Bio-Seite des freezeclub Balingen**, gehostet über
+GitHub Pages unter **https://freezeclub.github.io/link/**. Reines HTML/CSS/JS, self-contained in
+`index.html`, Bilder in `assets/`.
+
+- **Layout:** mobile-first einspaltig; ab 960 px zweispaltig (`.shell` → `.colA` sticky
+  Brand/Angebot links, `.colB` Content rechts), die mobile Sticky-Bar wird dann ausgeblendet.
+- **Aufbau:** Logo-Header → Kennenlern-Angebot (Hero) + Probemonat-Streifen → Foto-Slider →
+  Anwendungen → Termin & Kontakt → Über uns → Bestandskunden (RemediCool, Shop) → Podcast/Shop/
+  Website → Socials → Footer.
+- **Bilder:** Slider nutzt `gallery-kaeltekammer.jpg`, `anwendung-lymphdrainage.jpg`,
+  `anwendung-bodyscan.jpg`, `gallery-theke.jpg`. Team = Jana & Marc (Porträts in `assets/`) +
+  Steven; die Team-Slide ist aktuell nicht eingebunden.
+- **Share-Preview:** `assets/og-image.jpg` (1200×630), `og-image.png` bleibt als Fallback für
+  gecachte Vorschauen liegen.
+- **Angebote pflegen:** Hero, Streifen und Sticky-Bar verlinken auf Shop-Produkte – vor dem
+  Wechsel einer Aktion prüfen, ob der Produktlink noch existiert. Der Probemonat im Streifen ist
+  eine WhatsApp-Anfrage, kein Shop-Produkt.
+
+*freezeclub Balingen – Kältekammer, Regeneration & Gesundheit.*
