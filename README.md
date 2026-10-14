@@ -31,7 +31,21 @@ Vakuumtherapie und der **4D-Körperscan**, der Fortschritte millimetergenau mess
 - 📐 **[4D-Körperscan](https://www.freezeclub.de/4d-korperscan-balingen)** – millimetergenauer Avatar
   deines Körpers samt Haltungsanalyse. Macht Veränderung sichtbar statt gefühlt.
 
-## 🎁 Kennenlern-Angebot
+## 🎁 Aktuelle Angebote
+
+### 🔥 Deal-Weeks: 25 % auf alle Lymphdrainagen – nur für kurze Zeit
+
+| Angebot | statt | jetzt |
+|---|---|---|
+| [Kennenlern-Angebot · 3 Anwendungen zum Preis von einer](https://shop.freezeclub.de/products/kennenlern-angebot-1-1-lymphdrainage-nur-einmal-pro-person-einlosbar-kopie) | 39 € | **29,25 €** |
+| [Einzelanwendung](https://shop.freezeclub.de/products/lymphdrainage-balingen) | 39 € | **29,25 €** |
+| [4er Karte](https://shop.freezeclub.de/products/lymphdrainage-4er-karte) | 119 € | **89,25 €** |
+| [8er Karte](https://shop.freezeclub.de/products/lymphdrainage-8er-karte) | 199 € | **149,25 €** |
+| [16er Karte](https://shop.freezeclub.de/products/lymphdrainage-16er-karte) | 319 € | **239,25 €** |
+
+Jede Anwendung dauert 25 Minuten im Art of Cryo Flow System. Das Kennenlern-Angebot ist einmal pro Person einlösbar.
+
+### ❄️ Kennenlern-Angebot Kältekammer
 
 **3 Kältekammer-Anwendungen zum Preis von einer – 39 €** statt 117 €. Inklusive persönlicher
 Einweisung, ohne Abo und ohne Bindung, einmal pro Person einlösbar.
