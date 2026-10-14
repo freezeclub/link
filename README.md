@@ -11,7 +11,7 @@ Vakuumtherapie und der **4D-Körperscan**, der Fortschritte millimetergenau mess
 
 | | |
 |---|---|
-| ⭐ **Link in Bio** | **https://freezeclub.github.io/link/** |
+| ⭐ **Link in Bio** | **https://links.freezeclub.de/** |
 | 🌐 **Website** | https://www.freezeclub.de |
 | 🛒 **Onlineshop** | https://shop.freezeclub.de |
 | 📅 **Termin buchen** | https://www.freezeclub.de/contact |
@@ -99,7 +99,7 @@ Geschenkgutscheine.
 ### Über dieses Repository
 
 Dieses Repository enthält die **Link-in-Bio-Seite des freezeclub Balingen**, gehostet über
-GitHub Pages unter **https://freezeclub.github.io/link/**. Reines HTML/CSS/JS, self-contained in
+GitHub Pages unter **https://links.freezeclub.de/**. Reines HTML/CSS/JS, self-contained in
 `index.html`, Bilder in `assets/`.
 
 - **Layout:** mobile-first einspaltig; ab 960 px zweispaltig (`.shell` → `.colA` sticky
