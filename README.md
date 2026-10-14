@@ -118,6 +118,9 @@ GitHub Pages unter **https://links.freezeclub.de/**. Reines HTML/CSS/JS, self-co
 - **Aktions-Ablauf:** Elemente mit `data-deal` (Hero, Deal-Liste) blenden sich nach dem Enddatum
   im Script (`END`) automatisch aus; Sticky-Bar und Streifen springen dann auf das
   Kältekammer-Kennenlern-Angebot. Neue Aktion = Inhalte, Preise und `END` anpassen.
+- **Aktionsmonat Deal Weeks (Plan laut Asana „freezeclub“):** W1 13.–19.10. Lymphdrainage −25 % ·
+  W2 20.–26.10. 10er Karte 179 € · W3 27.10.–02.11. Kältekammer −25 % · W4 03.–09.11. Big Pack
+  40 Anwendungen 399 €. Start jeweils 0 Uhr, Ende 23:59 Uhr; Shop-Preise mit Vergleichspreis.
 - **Tracking:** Shop-Links tragen `utm_source=linkinbio&utm_medium=social&utm_campaign=…` –
   Käufe über die Link-Seite sind so in Shopify-Analytics auswertbar.
 - **GEO/SEO:** `llms.txt` fasst Studio, Anwendungen, Angebote und FAQ für KI-Suchsysteme zusammen;
