@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 <title>freezeclub · Links</title>
-<meta name="description" content="freezeclub Balingen – Kryotherapie in der Kältekammer, Lymphdrainage und 4D-Körperscan. Deal-Weeks: 25 % auf alle Lymphdrainage-Anwendungen – Kennenlern-Angebot 3 Anwendungen für 29,25 €." />
+<meta name="description" content="freezeclub Balingen – Kryotherapie in der Kältekammer, Lymphdrainage und 4D-Körperscan. Deal-Weeks bis 19.10.: 25 % auf alle Lymphdrainagen – 3 Anwendungen für 29,25 €." />
 <meta name="theme-color" content="#040d24" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -12,7 +12,7 @@
 
 <!-- Teilen-Vorschau (Instagram / WhatsApp / Facebook ...) -->
 <meta property="og:title" content="freezeclub Balingen" />
-<meta property="og:description" content="Kältekammer, Regeneration & ganzheitliche Gesundheit in Balingen. Deal-Weeks: 25 % auf alle Lymphdrainage-Anwendungen." />
+<meta property="og:description" content="Kältekammer, Regeneration & ganzheitliche Gesundheit in Balingen. Deal-Weeks bis 19.10.: 25 % auf alle Lymphdrainagen." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://links.freezeclub.de/" />
 <meta property="og:image" content="https://links.freezeclub.de/assets/og-image.jpg" />
@@ -45,9 +45,11 @@
     --mint:#CDF0BF;           /* Pastellgrün / Buttons (wie Yoga-Event) */
     --mint-2:#B4E6A0;
     --mint-ink:#1c3d18;
-    --sun:#FFBD70;            /* Orange / Aktionen (Kampagnenfarbe) */
-    --sun-2:#FFA851;
-    --sun-ink:#0a2138;
+    --deal:#4a2cf0;           /* Deal-Weeks-Lila (wie im Shop) */
+    --deal-2:#6a4dff;
+    --deal-soft:#BFB2FF;      /* Lila als Textfarbe auf dunklem Grund */
+    --lime:#D7FF4D;           /* Shop-Akzent */
+    --lime-ink:#1C1A2E;
     --wa:#25D366;
     --gap:16px;
     --section:66px;
@@ -62,6 +64,7 @@
     overflow-x:hidden;-webkit-tap-highlight-color:transparent;text-rendering:optimizeLegibility;
   }
   a{-webkit-tap-highlight-color:transparent}
+  [hidden]{display:none !important}
 
   /* atmosphere (static, cheap) */
   .sky{position:fixed;inset:0;z-index:-3;background:
@@ -161,20 +164,20 @@
   /* ===== Angebots-Hero ===== */
   .promo{position:relative;overflow:hidden;border-radius:22px;padding:30px 26px 28px;
     background:
-      radial-gradient(120% 90% at 15% 0%, rgba(120,200,255,.22), transparent 60%),
+      radial-gradient(120% 90% at 15% 0%, rgba(106,77,255,.38), transparent 62%),
       linear-gradient(155deg, rgba(24,72,132,.55), rgba(6,20,44,.35));}
   .promo::after{content:"";position:absolute;inset:0;pointer-events:none;
     box-shadow:inset 0 0 70px rgba(180,220,255,.14), inset 0 0 0 1px rgba(212,237,252,.14)}
   .promo .badge{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:600;
-    letter-spacing:.03em;text-transform:uppercase;color:var(--sun-ink);background:var(--sun);
+    letter-spacing:.03em;text-transform:uppercase;color:#fff;background:var(--deal);
     border-radius:100px;padding:6px 13px;position:relative;z-index:1}
-  .promo .badge .dot{width:6px;height:6px;border-radius:50%;background:var(--navy);
+  .promo .badge .dot{width:6px;height:6px;border-radius:50%;background:var(--lime);
     animation:pulse 2s infinite}
   @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(8,33,72,.5)}
     70%{box-shadow:0 0 0 7px rgba(8,33,72,0)}100%{box-shadow:0 0 0 0 rgba(8,33,72,0)}}
   .promo h2{position:relative;z-index:1;margin-top:16px;font-size:26px;line-height:1.2;
     font-weight:800;letter-spacing:-.02em;color:var(--ice)}
-  .promo h2 em{font-style:normal;color:var(--sun)}
+  .promo h2 em{font-style:normal;color:var(--deal-soft)}
   .promo p{position:relative;z-index:1;margin-top:10px;font-size:14px;line-height:1.6;
     color:var(--ice-dim);max-width:34ch}
   .promo h2{position:relative;z-index:1;margin-top:20px}
@@ -182,34 +185,57 @@
   .promo .perks li{display:flex;align-items:center;gap:11px;font-size:13.5px;font-weight:500;
     color:var(--ice);list-style:none}
   .promo .perks .ck{width:22px;height:22px;flex:none;border-radius:50%;display:grid;place-items:center;
-    background:rgba(255,189,112,.18);color:var(--sun)}
+    background:rgba(106,77,255,.28);color:var(--deal-soft)}
   .promo .perks .ck svg{width:12px;height:12px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
   .promo .pricerow{position:relative;z-index:1;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-top:20px}
-  .promo .pricerow .now{font-size:36px;font-weight:800;letter-spacing:-.02em;color:var(--sun);font-variant-numeric:tabular-nums}
+  .promo .pricerow .now{font-size:36px;font-weight:800;letter-spacing:-.02em;color:#fff;font-variant-numeric:tabular-nums}
   .promo .pricerow .was{font-size:18px;color:var(--ice-faint);text-decoration:line-through;font-variant-numeric:tabular-nums}
-  .promo .pricerow .save{font-size:12px;font-weight:700;color:var(--sun-ink);letter-spacing:.01em;
-    background:linear-gradient(94deg,var(--sun),var(--sun-2));border-radius:100px;padding:5px 12px}
+  .promo .pricerow .save{font-size:12px;font-weight:800;color:var(--lime-ink);letter-spacing:.01em;
+    background:var(--lime);border-radius:100px;padding:5px 12px}
+  .promo .unit{position:relative;z-index:1;margin-top:6px;font-size:13px;font-weight:600;color:var(--deal-soft)}
+  .promo .timer{position:relative;z-index:1;display:inline-flex;align-items:center;gap:8px;margin-top:16px;
+    font-size:12.5px;font-weight:600;color:var(--ice);background:rgba(4,13,36,.45);border:1px solid rgba(191,178,255,.28);
+    border-radius:100px;padding:6px 13px 6px 10px}
+  .promo .timer svg{width:15px;height:15px;fill:none;stroke:var(--lime);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .promo .timer b{color:var(--lime);font-weight:700;font-variant-numeric:tabular-nums}
   .promo .cta{position:relative;z-index:1;display:flex;align-items:center;justify-content:center;gap:9px;
-    margin-top:22px;padding:16px;border-radius:14px;text-decoration:none;font-weight:700;font-size:15px;
-    background:linear-gradient(94deg,var(--sun),var(--sun-2));color:var(--sun-ink);
-    box-shadow:0 16px 40px -18px rgba(255,168,80,.85);
+    margin-top:22px;padding:17px;border-radius:999px;text-decoration:none;font-weight:700;font-size:15.5px;
+    background:linear-gradient(94deg,var(--deal),var(--deal-2));color:#fff;
+    box-shadow:0 16px 40px -14px rgba(106,77,255,.9), inset 0 1px 0 rgba(255,255,255,.22);
     transition:transform .16s ease,filter .16s ease}
   .promo .cta svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
   .promo .cta:hover{filter:brightness(1.04);transform:translateY(-2px)}
   .promo .cta:active{transform:scale(.98)}
   .promo .fineprint{position:relative;z-index:1;margin-top:12px;font-size:11.5px;color:var(--ice-faint);text-align:center}
+  .promo .steps{position:relative;z-index:1;display:flex;justify-content:center;flex-wrap:wrap;gap:6px 10px;margin-top:14px;
+    font-size:11.5px;color:var(--ice-dim);font-weight:500}
+  .promo .steps span{display:inline-flex;align-items:center;gap:6px}
+  .promo .steps i{font-style:normal;display:inline-grid;place-items:center;width:17px;height:17px;border-radius:50%;
+    font-size:10px;font-weight:700;background:rgba(212,237,252,.14);color:var(--ice)}
 
   /* Deal-Weeks: Kartenpreise */
-  .deals{margin-top:var(--gap);border-radius:16px;padding:6px 20px 8px}
-  .deals .dh{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 0 8px;
-    font-size:12.5px;font-weight:600;letter-spacing:.02em;color:var(--sun)}
-  .deals .dh span{font-size:11.5px;font-weight:500;color:var(--ice-faint)}
-  .deals a{display:flex;align-items:baseline;gap:10px;padding:11px 0;border-top:1px solid var(--line);
-    text-decoration:none;color:var(--ice);transition:color .16s ease}
-  .deals a:hover b{color:var(--sun)}
-  .deals a b{flex:1;min-width:0;font-size:13.5px;font-weight:600;transition:color .16s ease}
-  .deals a s{font-size:12px;color:var(--ice-faint);font-variant-numeric:tabular-nums}
-  .deals a .p{font-size:14px;font-weight:700;color:var(--sun);font-variant-numeric:tabular-nums;min-width:74px;text-align:right}
+  .deals{margin-top:var(--gap);border-radius:18px;padding:6px 14px 12px}
+  .deals .dh{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 6px 10px;
+    font-size:13px;font-weight:700;color:var(--ice)}
+  .deals .dh span{font-size:11px;font-weight:800;color:#fff;background:var(--deal);border-radius:100px;padding:3px 9px}
+  .deals a{position:relative;display:flex;align-items:center;gap:12px;padding:13px 12px;margin-top:6px;border-radius:14px;
+    background:rgba(212,237,252,.05);border:1px solid var(--line);text-decoration:none;color:var(--ice);
+    transition:border-color .16s ease,background .16s ease,transform .16s ease}
+  .deals a:hover{border-color:rgba(191,178,255,.55);background:rgba(106,77,255,.12)}
+  .deals a:active{transform:scale(.99)}
+  .deals .nm{flex:1;min-width:0}
+  .deals .nm b{display:flex;align-items:center;gap:7px;font-size:14px;font-weight:600}
+  .deals .nm > span{display:block;font-size:11.5px;color:var(--ice-dim);margin-top:1px}
+  .deals .pick{font-size:9.5px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--lime-ink);
+    background:var(--lime);border-radius:100px;padding:2px 7px}
+  .deals .pr{text-align:right;flex:none}
+  .deals .pr s{display:block;font-size:11.5px;color:var(--ice-faint);font-variant-numeric:tabular-nums}
+  .deals .pr b{display:block;font-size:15px;font-weight:800;color:#fff;font-variant-numeric:tabular-nums}
+  .deals .go{flex:none;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;
+    background:var(--deal);color:#fff;transition:transform .16s ease}
+  .deals a:hover .go{transform:translateX(2px)}
+  .deals .go svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+  .deals a.best{border-color:rgba(215,255,77,.45)}
 
   /* secondary offer strip */
   .altoffer{display:flex;align-items:center;gap:14px;margin-top:var(--gap);
@@ -321,11 +347,14 @@
     transform:translateY(140%);transition:transform .38s cubic-bezier(.2,.7,.2,1);pointer-events:none}
   .sticky.show{transform:translateY(0)}
   .sticky a{pointer-events:auto;max-width:468px;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:10px;
-    padding:16px;border-radius:16px;text-decoration:none;font-weight:700;font-size:15px;color:var(--sun-ink);
-    background:linear-gradient(94deg,var(--sun),var(--sun-2));
-    box-shadow:0 16px 40px -16px rgba(255,168,80,.7), 0 8px 24px -10px rgba(0,0,0,.55);
+    padding:15px 18px;border-radius:999px;text-decoration:none;font-weight:700;font-size:15px;color:#fff;
+    background:linear-gradient(94deg,var(--deal),var(--deal-2));
+    box-shadow:0 16px 40px -14px rgba(106,77,255,.85), 0 8px 24px -10px rgba(0,0,0,.55);
     transition:filter .16s ease}
   .sticky a:active{filter:brightness(.97)}
+  .sticky a small{font-size:12px;font-weight:600;opacity:.8}
+  .sticky.alt a{color:var(--mint-ink);background:linear-gradient(94deg,var(--mint),var(--mint-2));
+    box-shadow:0 16px 40px -16px rgba(180,230,160,.75), 0 8px 24px -10px rgba(0,0,0,.55)}
   .sticky a svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
 
   @media (max-width:360px){
@@ -382,37 +411,51 @@
     Aktuelle Angebote
   </div>
 
-  <section class="promo frost rise d2">
-    <span class="badge"><span class="dot"></span> Deal-Weeks · nur kurze Zeit</span>
-    <h2>25 % auf alle <em>Lymphdrainagen</em>.</h2>
-    <p>Neu bei uns? Lern die Lymphdrainage kennen: drei Anwendungen à 25 Minuten im Art of Cryo Flow System – jetzt noch günstiger.</p>
+  <section class="promo frost rise d2" data-deal>
+    <span class="badge"><span class="dot"></span> Deal Weeks · nur bis 19.10.</span>
+    <h2>3 Lymphdrainagen zum Preis von <em>einer</em> – jetzt 25 % günstiger.</h2>
+    <p>25 Minuten entspannt im Liegen im Art of Cryo Flow System. Online kaufen, Termin flexibel vereinbaren.</p>
     <div class="pricerow">
       <span class="now">29,25 €</span>
       <span class="was">39 €</span>
-      <span class="save">– 25 %</span>
+      <span class="save">−25 %</span>
     </div>
-    <ul class="perks">
-      <li><span class="ck"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span> 3 Lymphdrainagen zum Preis von einer</li>
-      <li><span class="ck"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span> 25 Minuten entspannt im Liegen</li>
-      <li><span class="ck"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span> Ohne Abo &amp; ohne Bindung</li>
-    </ul>
-    <a class="cta" href="https://shop.freezeclub.de/products/kennenlern-angebot-1-1-lymphdrainage-nur-einmal-pro-person-einlosbar-kopie" target="_blank" rel="noopener">
+    <p class="unit">Nur 9,75 € pro Anwendung</p>
+    <span class="timer" id="dealTimer" hidden><svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9 2h6"/></svg><span>Endet in <b id="dealLeft"></b></span></span>
+    <a class="cta" href="https://shop.freezeclub.de/products/kennenlern-angebot-1-1-lymphdrainage-nur-einmal-pro-person-einlosbar-kopie?utm_source=linkinbio&amp;utm_medium=social&amp;utm_campaign=deal-weeks" target="_blank" rel="noopener">
+      Jetzt für 29,25 € sichern
       <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-      Deal sichern
     </a>
-    <p class="fineprint">Kennenlern-Angebot nur einmal pro Person einlösbar</p>
+    <div class="steps"><span><i>1</i>Online kaufen</span><span><i>2</i>Termin vereinbaren</span><span><i>3</i>25 Min. entspannen</span></div>
+    <p class="fineprint">Kennenlern-Angebot · einmal pro Person · ohne Abo</p>
   </section>
 
-  <div class="deals frost rise d2">
+  <div class="deals frost rise d2" data-deal>
     <div class="dh">Alle Lymphdrainage-Deals <span>−25 %</span></div>
-    <a href="https://shop.freezeclub.de/products/lymphdrainage-balingen" target="_blank" rel="noopener"><b>Einzelanwendung</b><s>39 €</s><span class="p">29,25 €</span></a>
-    <a href="https://shop.freezeclub.de/products/lymphdrainage-4er-karte" target="_blank" rel="noopener"><b>4er Karte</b><s>119 €</s><span class="p">89,25 €</span></a>
-    <a href="https://shop.freezeclub.de/products/lymphdrainage-8er-karte" target="_blank" rel="noopener"><b>8er Karte</b><s>199 €</s><span class="p">149,25 €</span></a>
-    <a href="https://shop.freezeclub.de/products/lymphdrainage-16er-karte" target="_blank" rel="noopener"><b>16er Karte</b><s>319 €</s><span class="p">239,25 €</span></a>
+    <a href="https://shop.freezeclub.de/products/lymphdrainage-balingen?utm_source=linkinbio&amp;utm_medium=social&amp;utm_campaign=deal-weeks" target="_blank" rel="noopener">
+      <span class="nm"><b>Einzelanwendung</b><span>1 × 25 Minuten</span></span>
+      <span class="pr"><s>39 €</s><b>29,25 €</b></span>
+      <span class="go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+    </a>
+    <a href="https://shop.freezeclub.de/products/lymphdrainage-4er-karte?utm_source=linkinbio&amp;utm_medium=social&amp;utm_campaign=deal-weeks" target="_blank" rel="noopener">
+      <span class="nm"><b>4er Karte</b><span>22,31 € pro Anwendung</span></span>
+      <span class="pr"><s>119 €</s><b>89,25 €</b></span>
+      <span class="go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+    </a>
+    <a href="https://shop.freezeclub.de/products/lymphdrainage-8er-karte?utm_source=linkinbio&amp;utm_medium=social&amp;utm_campaign=deal-weeks" target="_blank" rel="noopener">
+      <span class="nm"><b>8er Karte</b><span>18,66 € pro Anwendung</span></span>
+      <span class="pr"><s>199 €</s><b>149,25 €</b></span>
+      <span class="go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+    </a>
+    <a class="best" href="https://shop.freezeclub.de/products/lymphdrainage-16er-karte?utm_source=linkinbio&amp;utm_medium=social&amp;utm_campaign=deal-weeks" target="_blank" rel="noopener">
+      <span class="nm"><b>16er Karte <span class="pick">Bester Preis</span></b><span>14,95 € pro Anwendung</span></span>
+      <span class="pr"><s>319 €</s><b>239,25 €</b></span>
+      <span class="go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+    </a>
   </div>
 
-  <a class="altoffer frost rise d2" href="https://shop.freezeclub.de/products/kennenlern-angebot-kaeltekammer-3-anwendungen" target="_blank" rel="noopener">
-    <span class="tagline"><b>Lieber erst die Kältekammer?</b><span>3 Anwendungen zum Preis von einer</span></span>
+  <a class="altoffer frost rise d2" href="https://shop.freezeclub.de/products/kennenlern-angebot-kaeltekammer-3-anwendungen?utm_source=linkinbio&amp;utm_medium=social&amp;utm_campaign=kennenlern-kaeltekammer" target="_blank" rel="noopener">
+    <span class="tagline"><b id="kkTitle">Lieber erst die Kältekammer?</b><span>3 Anwendungen zum Preis von einer</span></span>
     <span class="price">39 €</span>
     <span class="arw"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
   </a>
@@ -599,17 +642,42 @@
 
 <!-- sticky Angebots-Bar -->
 <div class="sticky" id="sticky">
-  <a href="https://shop.freezeclub.de/products/kennenlern-angebot-1-1-lymphdrainage-nur-einmal-pro-person-einlosbar-kopie" target="_blank" rel="noopener">
-    Deal-Weeks · Lymphdrainage −25 %
+  <a id="stickyLink" href="https://shop.freezeclub.de/products/kennenlern-angebot-1-1-lymphdrainage-nur-einmal-pro-person-einlosbar-kopie?utm_source=linkinbio&amp;utm_medium=social&amp;utm_campaign=deal-weeks" target="_blank" rel="noopener">
+    <span id="stickyText">3× Lymphdrainage · 29,25 € <small>bis 19.10.</small></span>
     <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
   </a>
 </div>
 
 <script>
+  /* ---- Deal Weeks: Countdown bis 19.10. 23:59 (Berlin); danach Deal ausblenden ---- */
+  (function(){
+    var END = new Date('2026-10-19T23:59:59+02:00').getTime();
+    var timer = document.getElementById('dealTimer'), left = document.getElementById('dealLeft');
+    function expire(){
+      document.querySelectorAll('[data-deal]').forEach(function(el){ el.hidden = true; });
+      var kk = document.getElementById('kkTitle'); if(kk) kk.textContent = 'Kennenlern-Angebot Kältekammer';
+      var st = document.getElementById('sticky'), a = document.getElementById('stickyLink'), t = document.getElementById('stickyText');
+      if(st && a && t){
+        st.classList.add('alt');
+        a.href = 'https://shop.freezeclub.de/products/kennenlern-angebot-kaeltekammer-3-anwendungen?utm_source=linkinbio&utm_medium=social&utm_campaign=kennenlern-kaeltekammer';
+        t.textContent = 'Kennenlern-Angebot Kältekammer · 39 €';
+      }
+    }
+    function tick(){
+      var ms = END - Date.now();
+      if(ms <= 0){ expire(); return false; }
+      var d = Math.floor(ms/864e5), h = Math.floor(ms%864e5/36e5), m = Math.floor(ms%36e5/6e4);
+      left.textContent = d >= 1 ? d + (d === 1 ? ' Tag ' : ' Tagen ') + h + ' Std.' : h + ' Std. ' + m + ' Min.';
+      timer.hidden = false;
+      return true;
+    }
+    if(tick()) setInterval(tick, 30000);
+  })();
+
   /* ---- Sticky-Bar erst nach dem Hero zeigen ---- */
   (function(){
     var bar = document.getElementById('sticky');
-    var hero = document.querySelector('.promo');
+    var hero = document.querySelector('.promo:not([hidden])') || document.querySelector('.altoffer');
     if(!bar || !hero || !('IntersectionObserver' in window)) return;
     var io = new IntersectionObserver(function(es){
       es.forEach(function(e){ bar.classList.toggle('show', !e.isIntersecting); });

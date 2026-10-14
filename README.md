@@ -33,7 +33,7 @@ Vakuumtherapie und der **4D-Körperscan**, der Fortschritte millimetergenau mess
 
 ## 🎁 Aktuelle Angebote
 
-### 🔥 Deal-Weeks: 25 % auf alle Lymphdrainagen – nur für kurze Zeit
+### 🔥 Deal-Weeks: 25 % auf alle Lymphdrainagen – nur bis 19.10.
 
 | Angebot | statt | jetzt |
 |---|---|---|
@@ -115,6 +115,11 @@ GitHub Pages unter **https://links.freezeclub.de/**. Reines HTML/CSS/JS, self-co
 - **Angebote pflegen:** Hero, Streifen und Sticky-Bar verlinken auf Shop-Produkte – vor dem
   Wechsel einer Aktion prüfen, ob der Produktlink noch existiert. Der Probemonat im Streifen ist
   eine WhatsApp-Anfrage, kein Shop-Produkt. Bei Preis- oder Aktionswechsel auch `llms.txt` anpassen.
+- **Aktions-Ablauf:** Elemente mit `data-deal` (Hero, Deal-Liste) blenden sich nach dem Enddatum
+  im Script (`END`) automatisch aus; Sticky-Bar und Streifen springen dann auf das
+  Kältekammer-Kennenlern-Angebot. Neue Aktion = Inhalte, Preise und `END` anpassen.
+- **Tracking:** Shop-Links tragen `utm_source=linkinbio&utm_medium=social&utm_campaign=…` –
+  Käufe über die Link-Seite sind so in Shopify-Analytics auswertbar.
 - **GEO/SEO:** `llms.txt` fasst Studio, Anwendungen, Angebote und FAQ für KI-Suchsysteme zusammen;
   `robots.txt` erlaubt alle Crawler (auch GPTBot, ClaudeBot, PerplexityBot u. a.) und verweist auf
   `sitemap.xml`.
