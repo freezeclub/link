@@ -1,0 +1,21 @@
+# robots.txt – links.freezeclub.de
+# Alle Inhalte dürfen gecrawlt werden, ausdrücklich auch von KI-Suchsystemen.
+
+User-agent: *
+Allow: /
+
+# KI-Suche & Assistenten
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://links.freezeclub.de/sitemap.xml

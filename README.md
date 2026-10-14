@@ -104,7 +104,7 @@ GitHub Pages unter **https://links.freezeclub.de/**. Reines HTML/CSS/JS, self-co
 
 - **Layout:** mobile-first einspaltig; ab 960 px zweispaltig (`.shell` → `.colA` sticky
   Brand/Angebot links, `.colB` Content rechts), die mobile Sticky-Bar wird dann ausgeblendet.
-- **Aufbau:** Logo-Header → Kennenlern-Angebot (Hero) + Probemonat-Streifen → Foto-Slider →
+- **Aufbau:** Logo-Header → Aktions-Hero + Deal-Liste + Kältekammer- und Probemonat-Streifen → Foto-Slider →
   Anwendungen → Termin & Kontakt → Über uns → Bestandskunden (RemediCool, Shop) → Podcast/Shop/
   Website → Socials → Footer.
 - **Bilder:** Slider nutzt `gallery-kaeltekammer.jpg`, `anwendung-lymphdrainage.jpg`,
@@ -114,6 +114,9 @@ GitHub Pages unter **https://links.freezeclub.de/**. Reines HTML/CSS/JS, self-co
   gecachte Vorschauen liegen.
 - **Angebote pflegen:** Hero, Streifen und Sticky-Bar verlinken auf Shop-Produkte – vor dem
   Wechsel einer Aktion prüfen, ob der Produktlink noch existiert. Der Probemonat im Streifen ist
-  eine WhatsApp-Anfrage, kein Shop-Produkt.
+  eine WhatsApp-Anfrage, kein Shop-Produkt. Bei Preis- oder Aktionswechsel auch `llms.txt` anpassen.
+- **GEO/SEO:** `llms.txt` fasst Studio, Anwendungen, Angebote und FAQ für KI-Suchsysteme zusammen;
+  `robots.txt` erlaubt alle Crawler (auch GPTBot, ClaudeBot, PerplexityBot u. a.) und verweist auf
+  `sitemap.xml`.
 
 *freezeclub Balingen – Kältekammer, Regeneration & Gesundheit.*
